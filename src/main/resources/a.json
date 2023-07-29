@@ -1,0 +1,28 @@
+{
+  "material": "WATER_BUCKET",
+  "amount": 1,
+  "meta": {
+    "displayname": "This is a Bucket",
+    "lore": [
+      "First, Cool"
+    ],
+    "enchantments": {
+      "DAMAGE_ALL": 10
+    },
+    "flags": [
+      "HIDE_ATTRIBUTES"
+    ],
+    "custommodeldata": 1010,
+    "attibutes":[
+      {
+        "attribute": "GENERIC_ARMOR_TOUGHNESS",
+        "amount": "100",
+        "name": "防御",
+        "uuid": "C6B048F1-C852-704C-5668-98CAAE97B90F",
+        "operation": "ADD_NUMBER",
+        "slot": "FEET"
+      }
+    ],
+    "unbreakable": true
+  }
+}
